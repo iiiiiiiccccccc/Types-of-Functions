@@ -91,19 +91,19 @@ Deploy the Contract:
 Interact with the Contract:
    - Once deployed, you can perform the following actions:
 
-Mint: Create new IC tokens.
-Burn: Destroy IC tokens.
-Vote: Cast a vote on a proposal.
-Execute Proposal: Implement a validated proposal.
-Transfer: Send IC tokens to another address.
-Transfer From: Move IC tokens from one address to another.
-Approve: Authorize a spender to manage IC tokens on your behalf.
-Balance Of: Check the IC token balance of any address.
-Allowance: Verify the amount of IC tokens a spender can access on behalf of the owner.
-Total Supply: View the total supply of IC tokens.
-Name: Retrieve the name of the IC token.
-Votes: Access the total votes held by a specific address.
-Proposals: Verify the status of a proposal.
+- Mint: Create new IC tokens.
+- Burn: Destroy IC tokens.
+- Vote: Cast a vote on a proposal.
+- Execute Proposal: Implement a validated proposal.
+- Transfer: Send IC tokens to another address.
+- Transfer From: Move IC tokens from one address to another.
+- Approve: Authorize a spender to manage IC tokens on your behalf.
+- Balance Of: Check the IC token balance of any address.
+- Allowance: Verify the amount of IC tokens a spender can access on behalf of the owner.
+- Total Supply: View the total supply of IC tokens.
+- Name: Retrieve the name of the IC token.
+- Votes: Access the total votes held by a specific address.
+- Proposals: Verify the status of a proposal.
 
 This sequence outlines how to compile, deploy, and interact with the IC Token smart contract using the Remix IDE or a similar Solidity development environment.
 
