@@ -16,7 +16,7 @@ The token contract defines a basic token with key features:
 To begin this project, set up your Solidity development environment. I recommend using Remix, an online Solidity IDE. Follow these steps:
 
 1. Visit Remix IDE at [Remix](https://remix.ethereum.org).
-2. Create a new file: Click the "+" icon in the left sidebar, and save it with a .sol extension (e.g., VinceToken.sol).
+2. Create a new file: Click the "+" icon in the left sidebar, and save it with a .sol extension. 
 3. Copy and paste the provided template code into your new file, if available.
 
 ## The Program Execution 
@@ -81,7 +81,7 @@ Copy the code below into your file:
 Compile the Code:
 * Navigate to the "Solidity Compiler" tab on the left-hand sidebar.
 * Ensure the compiler version is set to "0.8.26" or another compatible version.
-* Click on "Compile VinceToken.sol" to compile the contract.
+* Click on "Compile ICToken.sol" to compile the contract.
 
 Deploy the Contract:
 * Switch to the "Deploy & Run Transactions" tab.
@@ -109,7 +109,8 @@ This sequence outlines how to compile, deploy, and interact with the IC Token sm
 
 
 # Authors
-
+Metacrafter Student Ivanne Cres Yabut
+https://x.com/ivanne_cres
 
 # License
 This project is licensed under the author's License - see the LICENSE.md file for details
