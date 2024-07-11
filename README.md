@@ -6,7 +6,7 @@ This Solidity program introduces a token contract, an ERC20-compliant token desi
 
 The token contract defines a basic token with key features:
 
-* Owners can mint VINCE tokens to any address using 'mint'.
+* Owners can mint IC tokens to any address using 'mint'.
 * Users can burn their tokens using 'burn'.
 * Token holders participate in proposal voting using 'vote', contingent on token ownership.
 * Proposal execution ('executeProposal') requires validation by the contract owner."
