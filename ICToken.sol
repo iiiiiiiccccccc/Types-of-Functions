@@ -1,5 +1,3 @@
-CODE 
-
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
@@ -27,6 +25,12 @@ contract ICToken is ERC20, Ownable {
     // Function to burn tokens
     function burn(uint256 amount) public {
         _burn(msg.sender, amount);
+    }
+
+    // Function for transfer 
+    function transfer(address recipient, uint256 amount) public override returns (bool) {
+        _transfer(_msgSender(), recipient, amount);
+        return true;
     }
 
     // Function for an address to vote on a proposal
