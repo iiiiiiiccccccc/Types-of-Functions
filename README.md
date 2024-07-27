@@ -53,6 +53,12 @@ Copy the code below into your file:
         function burn(uint256 amount) public {
             _burn(msg.sender, amount);
         }
+
+        // Function for transfer 
+        function transfer(address recipient, uint256 amount) public override returns (bool) {
+            _transfer(_msgSender(), recipient, amount);
+            return true;
+        }
     
         // Function for an address to vote on a proposal
         function vote(bytes32 proposal) external {
